@@ -1,0 +1,72 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container for the two divs (left and right) */
+.container {
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+  min-width: 600px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Left side container */
+.left {
+  flex: 1;
+  padding: 20px;
+  background-color: #e0f7fa;
+}
+
+.left textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+  outline: none;
+}
+
+/* Right side container */
+.right {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff3e0;
+  text-align: center;
+}
+
+.right .heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.right .sentence {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.right .characters {
+  font-size: 16px;
+  color: #777;
+}
