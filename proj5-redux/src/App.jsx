@@ -6,6 +6,7 @@ function App() {
     <>
       <div className="App">
         <h1>Redux Toolkit Counter Example 1</h1>
+        <h2>dfdffrefrefr</h2>
         <Counter />
       </div>
     </>
